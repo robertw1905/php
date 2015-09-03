@@ -4,7 +4,7 @@ class Conexion extends mysqli{
 	protected $conn;
 
 	public function __construct(){
-		$conn = parent::__construct('p:localhost','root','12345','usuario');
+		$conn = parent::__construct('p:mysql7.000webhost.com','a2431727_root','abc123','a2431727_usuario');
 		$this->query("SET NAMES 'utf8';");
 		$this->connect_errno ? die('Error con la conexión') : $x = 'Conectado';
 		//echo $x;
