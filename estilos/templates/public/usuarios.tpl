@@ -29,7 +29,8 @@
 							{/if}
 						</table>
 					</div>
-					<center><input class="btn btn-primary" type="submit" value="Registrar"></center>
+					<center><input class="btn btn-primary" type="submit" value="Registrar">
+						<a href="index.php" class="btn btn-default pull-right">Salir</a></center>
 				</form>
 			</div>
 </div>

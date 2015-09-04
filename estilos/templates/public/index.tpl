@@ -33,7 +33,7 @@
 				</div>
 			</form>
 			{if $cero eq 0}
-			<div class="alert alert-success">
+			<div class="alert alert-warning">
 				<a href="index.php?modo=registro">Registrate</a>
 			</div>
 			{/if}
