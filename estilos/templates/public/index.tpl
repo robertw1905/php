@@ -18,16 +18,16 @@
 				<div class="table-responsive">
 					<table class="table table-bordered table-hover">
 						<tr>
-							<td class="success text-center"><label for="l_user">User:</label></td>
+							<td class="success text-center"><label for="l_user">Usuario:</label></td>
 							<td><input type="text" class="form-control" name="user" placeholder="Usuario:"/></td>
 						</tr>
 						<tr>
-							<td class="success text-center"><label for="l_pass">Pass:</label></td>
+							<td class="success text-center"><label for="l_pass">contrase&ntildea:</label></td>
 							<td><input type="password" class="form-control" name="pass" placeholder="Contraseña:"/>
 							<input type="hidden"  name="login" value="1" /></td>
 						</tr>
 						<tr>
-							<td colspan="2"><center><input type="submit" class="btn btn-primary" value="Iniciar Sesion" /></center></td>
+							<td colspan="2"><center><input type="submit" class="btn btn-primary" value="Iniciar Sesión" /></center></td>
 						</tr>
 					</table>
 				</div>

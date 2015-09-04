@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-09-04 08:12:12
+<?php /* Smarty version 3.1.27, created on 2015-09-04 08:37:34
          compiled from "C:\xampp\htdocs\php\estilos\templates\public\index.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:2737455e9363c995204_13260185%%*/
+/*%%SmartyHeaderCode:770755e93c2ee05d84_42614247%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4ab9be269b6aca00255040d522c493c633febbb9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\php\\estilos\\templates\\public\\index.tpl',
-      1 => 1441346539,
+      1 => 1441348652,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2737455e9363c995204_13260185',
+  'nocache_hash' => '770755e93c2ee05d84_42614247',
   'variables' => 
   array (
     'error' => 0,
@@ -21,13 +21,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55e9363ca48d06_50906731',
+  'unifunc' => 'content_55e93c2eef8085_04634574',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55e9363ca48d06_50906731')) {
-function content_55e9363ca48d06_50906731 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55e93c2eef8085_04634574')) {
+function content_55e93c2eef8085_04634574 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '2737455e9363c995204_13260185';
+$_smarty_tpl->properties['nocache_hash'] = '770755e93c2ee05d84_42614247';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -50,16 +50,16 @@ $_smarty_tpl->properties['nocache_hash'] = '2737455e9363c995204_13260185';
 				<div class="table-responsive">
 					<table class="table table-bordered table-hover">
 						<tr>
-							<td class="success text-center"><label for="l_user">User:</label></td>
+							<td class="success text-center"><label for="l_user">Usuario:</label></td>
 							<td><input type="text" class="form-control" name="user" placeholder="Usuario:"/></td>
 						</tr>
 						<tr>
-							<td class="success text-center"><label for="l_pass">Pass:</label></td>
+							<td class="success text-center"><label for="l_pass">contrase&ntildea:</label></td>
 							<td><input type="password" class="form-control" name="pass" placeholder="Contraseña:"/>
 							<input type="hidden"  name="login" value="1" /></td>
 						</tr>
 						<tr>
-							<td colspan="2"><center><input type="submit" class="btn btn-primary" value="Iniciar Sesion" /></center></td>
+							<td colspan="2"><center><input type="submit" class="btn btn-primary" value="Iniciar Sesión" /></center></td>
 						</tr>
 					</table>
 				</div>
