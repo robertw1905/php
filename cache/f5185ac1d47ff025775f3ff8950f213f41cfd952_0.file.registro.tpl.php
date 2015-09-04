@@ -1,3 +1,33 @@
+<?php /* Smarty version 3.1.27, created on 2015-09-04 08:18:34
+         compiled from "C:\xampp\htdocs\php\estilos\templates\public\registro.tpl" */ ?>
+<?php
+/*%%SmartyHeaderCode:2178155e937bac0df00_47648935%%*/
+if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'f5185ac1d47ff025775f3ff8950f213f41cfd952' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\php\\estilos\\templates\\public\\registro.tpl',
+      1 => 1441347489,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2178155e937bac0df00_47648935',
+  'variables' => 
+  array (
+    'error' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => '3.1.27',
+  'unifunc' => 'content_55e937bacd1409_16695664',
+),false);
+/*/%%SmartyHeaderCode%%*/
+if ($_valid && !is_callable('content_55e937bacd1409_16695664')) {
+function content_55e937bacd1409_16695664 ($_smarty_tpl) {
+
+$_smarty_tpl->properties['nocache_hash'] = '2178155e937bac0df00_47648935';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +39,12 @@
 <body>
 	<div class="container">
 		<div align="center"><h3>Usuarios del Sistema</h3>
-			{if isset($error)}
+			<?php if (isset($_smarty_tpl->tpl_vars['error']->value)) {?>
 				<div id="error" class="alert alert-danger" >
-				{$error}
+				<?php echo $_smarty_tpl->tpl_vars['error']->value;?>
+
 				</div>
-			{/if}
+			<?php }?>
 			<form action="index.php?modo=registro" method="post">
 				<div class="table-responsive">
 					<table border="1" class="table table-bordered table-hover">
@@ -37,7 +68,13 @@
 			</form>
 		</div>
 	</div>
-	<script src="includes/js/jquery-1.11.3.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<?php echo '<script'; ?>
+ src="includes/js/jquery-1.11.3.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
 </body>
-</html>
+</html><?php }
+}
+?>

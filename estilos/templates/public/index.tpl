@@ -32,6 +32,11 @@
 					</table>
 				</div>
 			</form>
+			{if $cero eq 0}
+			<div class="alert alert-success">
+				<a href="index.php?modo=registro">Registrate</a>
+			</div>
+			{/if}
 		</div>
 	</div>
 	<script src="includes/js/jquery-1.11.3.min.js"></script>

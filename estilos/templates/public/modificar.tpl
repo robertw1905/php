@@ -31,7 +31,7 @@
 					{/if}
 					</table>
 				</div>
-				<center><input class="btn btn-primary" type="submit" value="Enviar"></center>
+				<center><input class="btn btn-primary" type="submit" value="Enviar"><a href="index.php?modo=usuarios" class="btn btn-default pull-right">Inicio</a></center>
 			</form>
 		</div>
 	</div>
