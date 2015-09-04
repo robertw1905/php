@@ -122,7 +122,6 @@ $modo = isset($_GET['modo']) ? $_GET['modo'] : 'default';
 				$template = new Smarty(1);
 				$bd = new Conexion();
 				$dato = $bd->consulta("select count(*) total from usuario_table");
-				//var_dump($dato[0]['total']);exit;
 				$template->assign(array('cero' => $dato[0]['total']));
 				$template->display('public/index.tpl');	
 			}
