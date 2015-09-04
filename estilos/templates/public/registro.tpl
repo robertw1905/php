@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset ="UTF-8">
-	<title>Test - Registro</title>
+	<title>Registro</title>
 	<meta name="viewport" content="width=device-width, user-sclable=no, initial-scale=1.0, maximun-sclale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
