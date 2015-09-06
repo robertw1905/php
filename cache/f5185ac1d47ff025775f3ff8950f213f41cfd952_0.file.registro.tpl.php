@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.27, created on 2015-09-04 22:00:16
+<?php /* Smarty version 3.1.27, created on 2015-09-06 17:37:30
          compiled from "C:\xampp\htdocs\php\estilos\templates\public\registro.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:1166555e9f850b5a406_24524781%%*/
+/*%%SmartyHeaderCode:1943955ec5dbaa2d786_84230352%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f5185ac1d47ff025775f3ff8950f213f41cfd952' => 
     array (
       0 => 'C:\\xampp\\htdocs\\php\\estilos\\templates\\public\\registro.tpl',
-      1 => 1441349581,
+      1 => 1441553849,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1166555e9f850b5a406_24524781',
+  'nocache_hash' => '1943955ec5dbaa2d786_84230352',
   'variables' => 
   array (
     'error' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.27',
-  'unifunc' => 'content_55e9f850c0a082_27031087',
+  'unifunc' => 'content_55ec5dbad3ab82_82607942',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55e9f850c0a082_27031087')) {
-function content_55e9f850c0a082_27031087 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55ec5dbad3ab82_82607942')) {
+function content_55ec5dbad3ab82_82607942 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '1166555e9f850b5a406_24524781';
+$_smarty_tpl->properties['nocache_hash'] = '1943955ec5dbaa2d786_84230352';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +45,7 @@ $_smarty_tpl->properties['nocache_hash'] = '1166555e9f850b5a406_24524781';
 
 				</div>
 			<?php }?>
-			<form action="index.php?modo=registro" method="post">
+			<form action="index.php?modo=registro" class="form-inline" method="post">
 				<div class="table-responsive">
 					<table border="1" class="table table-bordered table-hover">
 						<tr><th colspan="6" class="text-center">Registro</th></tr>

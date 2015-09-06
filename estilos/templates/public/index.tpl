@@ -18,8 +18,8 @@
 				<div class="table-responsive">
 					<table class="table table-bordered table-hover">
 						<tr>
-							<td class="success text-center"><label for="l_user">Usuario:</label></td>
-							<td><input type="text" class="form-control" name="user" placeholder="Usuario:"/></td>
+							<td class="success text-center"><label for="l_user">Nombre:</label></td>
+							<td><input type="text" class="form-control" name="user" placeholder="Nombre:"/></td>
 						</tr>
 						<tr>
 							<td class="success text-center"><label for="l_pass">contrase&ntildea:</label></td>
