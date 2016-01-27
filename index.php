@@ -1,6 +1,6 @@
 <?php
-include ('includes/comunes.php');
-include ('includes/class.Conexion.php');
+require_once ('includes/comunes.php');
+require_once ('includes/class.Conexion-pg.php');
 
 $modo = isset($_GET['modo']) ? $_GET['modo'] : 'default';
 	switch ($modo){
